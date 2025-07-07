@@ -1,0 +1,650 @@
+﻿  pch.cpp
+  bvinjector.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(11,21): error C2039: 'filesystem': is not a member of 'std'
+  (compiling source file '/bvinjector.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\fstream(20,1):
+      see declaration of 'std'
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(11,21): error C2878: 'filesystem': a namespace or class of this name does not exist
+  (compiling source file '/bvinjector.cpp')
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(18,10): error C2653: 'fs': is not a class or namespace name
+  (compiling source file '/bvinjector.cpp')
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(18,14): error C3861: 'exists': identifier not found
+  (compiling source file '/bvinjector.cpp')
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(19,9): error C2653: 'fs': is not a class or namespace name
+  (compiling source file '/bvinjector.cpp')
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(19,13): error C3861: 'create_directory': identifier not found
+  (compiling source file '/bvinjector.cpp')
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(35,25): error C2065: 'fs': undeclared identifier
+  (compiling source file '/bvinjector.cpp')
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(35,25): error C2653: 'fs': is not a class or namespace name
+  (compiling source file '/bvinjector.cpp')
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(35,29): error C2065: 'directory_entry': undeclared identifier
+  (compiling source file '/bvinjector.cpp')
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(35,18): error C2923: 'std::vector': 'directory_entry' is not a valid template type argument for parameter '_Ty'
+  (compiling source file '/bvinjector.cpp')
+      C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(35,29):
+      see declaration of 'directory_entry'
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(35,18): error C2976: 'std::vector': too few template arguments
+  (compiling source file '/bvinjector.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(35,46): error C2133: 'dlls': unknown size
+  (compiling source file '/bvinjector.cpp')
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(35,46): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file '/bvinjector.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(36,38): error C2653: 'fs': is not a class or namespace name
+  (compiling source file '/bvinjector.cpp')
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(36,30): error C2530: 'entry': references must be initialized
+  (compiling source file '/bvinjector.cpp')
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(36,30): error C3531: 'entry': a symbol whose type contains 'auto' must have an initializer
+  (compiling source file '/bvinjector.cpp')
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(36,36): error C2143: syntax error: missing ';' before ':'
+  (compiling source file '/bvinjector.cpp')
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(36,42): error C3861: 'directory_iterator': identifier not found
+  (compiling source file '/bvinjector.cpp')
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(36,72): error C2143: syntax error: missing ';' before ')'
+  (compiling source file '/bvinjector.cpp')
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(38,26): error C2663: 'std::vector<_Ty,_Alloc>::push_back': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file '/bvinjector.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(921,23):
+      could be 'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)'
+          C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(38,26):
+          'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(38,21):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(38,21):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(917,23):
+      or       'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)'
+          C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(38,26):
+          'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(38,21):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(38,21):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(38,26):
+      while trying to match the argument list '(int)'
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(41,22): error C2662: 'bool std::vector<_Ty,_Alloc>::empty(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file '/bvinjector.cpp')
+      C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(41,17):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(41,17):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1893,47):
+      see declaration of 'std::vector<_Ty,_Alloc>::empty'
+      C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(41,22):
+      while trying to match the argument list '()'
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(46,41): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file '/bvinjector.cpp')
+      C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(46,36):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(46,36):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1898,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(46,41):
+      while trying to match the argument list '()'
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(47,45): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file '/bvinjector.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(47,45):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(47,45):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(47,45):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(47,45):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(47,45):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(47,45):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(47,45):
+      while trying to match the argument list '(std::vector, size_t)'
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(53,58): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file '/bvinjector.cpp')
+      C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(53,53):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(53,53):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1898,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(53,58):
+      while trying to match the argument list '()'
+  
+C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(57,36): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file '/bvinjector.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(57,36):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(57,36):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(57,36):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(57,36):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(57,36):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(57,36):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\calla\source\repos\someproject\someproject\bvinjector.cpp(57,36):
+      while trying to match the argument list '(std::vector, int)'
+  
+  injector.cpp
+  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(32,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(33,1): error C2146: syntax error: missing ';' before identifier 'WINAPI'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(68,12): error C3646: 'dwSize': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(68,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(69,12): error C3646: 'th32ProcessID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(69,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(70,16): error C3646: 'th32HeapID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(70,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(71,12): error C3646: 'dwFlags': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(71,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(81,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(82,1): error C2146: syntax error: missing ';' before identifier 'WINAPI'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(88,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(88,1): error C2086: 'int BOOL': redefinition
+  (compiling source file '/main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(81,1):
+      see declaration of 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(89,1): error C2146: syntax error: missing ';' before identifier 'WINAPI'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(97,12): error C3646: 'dwSize': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(97,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(98,12): error C3646: 'hHandle': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(98,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(99,15): error C3646: 'dwAddress': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(99,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(100,12): error C3646: 'dwBlockSize': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(100,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(101,12): error C3646: 'dwFlags': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(101,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(102,12): error C3646: 'dwLockCount': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(102,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(103,12): error C3646: 'dwResvd': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(103,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(104,12): error C3646: 'th32ProcessID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(104,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(105,16): error C3646: 'th32HeapID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(105,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(116,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(116,1): error C2086: 'int BOOL': redefinition
+  (compiling source file '/main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(81,1):
+      see declaration of 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(117,1): error C2146: syntax error: missing ';' before identifier 'WINAPI'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(124,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(124,1): error C2086: 'int BOOL': redefinition
+  (compiling source file '/main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(81,1):
+      see declaration of 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(125,1): error C2146: syntax error: missing ';' before identifier 'WINAPI'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(130,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(130,1): error C2086: 'int BOOL': redefinition
+  (compiling source file '/main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(81,1):
+      see declaration of 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(131,1): error C2146: syntax error: missing ';' before identifier 'WINAPI'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(144,13): error C3646: 'dwSize': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(144,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(145,13): error C3646: 'cntUsage': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(145,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(146,13): error C3646: 'th32ProcessID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(146,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(147,15): error C3646: 'th32DefaultHeapID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(147,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(148,13): error C3646: 'th32ModuleID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(148,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(149,13): error C3646: 'cntThreads': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(149,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(150,13): error C3646: 'th32ParentProcessID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(150,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(151,13): error C3646: 'pcPriClassBase': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(151,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(152,13): error C3646: 'dwFlags': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(152,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(153,13): error C3646: 'szExeFile': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(153,22): error C2143: syntax error: missing ',' before '['
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(153,32): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(158,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(158,1): error C2086: 'int BOOL': redefinition
+  (compiling source file '/main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(81,1):
+      see declaration of 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(159,1): error C2146: syntax error: missing ';' before identifier 'WINAPI'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(165,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(165,1): error C2086: 'int BOOL': redefinition
+  (compiling source file '/main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(81,1):
+      see declaration of 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(166,1): error C2146: syntax error: missing ';' before identifier 'WINAPI'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(174,13): error C3646: 'dwSize': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(174,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(175,13): error C3646: 'cntUsage': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(175,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(176,13): error C3646: 'th32ProcessID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(176,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(177,15): error C3646: 'th32DefaultHeapID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(177,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(178,13): error C3646: 'th32ModuleID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(178,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(179,13): error C3646: 'cntThreads': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(179,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(180,13): error C3646: 'th32ParentProcessID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(180,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(181,13): error C3646: 'pcPriClassBase': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(181,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(182,13): error C3646: 'dwFlags': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(182,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(183,13): error C3646: 'szExeFile': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(183,22): error C2143: syntax error: missing ',' before '['
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(183,32): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(188,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(188,1): error C2086: 'int BOOL': redefinition
+  (compiling source file '/main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(81,1):
+      see declaration of 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(189,1): error C2146: syntax error: missing ';' before identifier 'WINAPI'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(195,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(195,1): error C2086: 'int BOOL': redefinition
+  (compiling source file '/main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(81,1):
+      see declaration of 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(196,1): error C2146: syntax error: missing ';' before identifier 'WINAPI'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(214,13): error C3646: 'dwSize': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(214,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(215,13): error C3646: 'cntUsage': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(215,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(216,13): error C3646: 'th32ThreadID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(216,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(217,13): error C3646: 'th32OwnerProcessID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(217,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(218,13): error C3646: 'tpBasePri': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(218,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(219,13): error C3646: 'tpDeltaPri': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(219,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(220,13): error C3646: 'dwFlags': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(220,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(225,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(225,1): error C2086: 'int BOOL': redefinition
+  (compiling source file '/main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(81,1):
+      see declaration of 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(226,1): error C2146: syntax error: missing ';' before identifier 'WINAPI'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(232,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(232,1): error C2086: 'int BOOL': redefinition
+  (compiling source file '/main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(81,1):
+      see declaration of 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(233,1): error C2146: syntax error: missing ';' before identifier 'WINAPI'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(243,13): error C3646: 'dwSize': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(243,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(244,13): error C3646: 'th32ModuleID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(244,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(245,13): error C3646: 'th32ProcessID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(245,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(246,13): error C3646: 'GlblcntUsage': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(246,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(247,13): error C3646: 'ProccntUsage': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(247,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(248,11): error C2143: syntax error: missing ';' before '*'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(248,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(248,24): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(249,13): error C3646: 'modBaseSize': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(249,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(250,13): error C3646: 'hModule': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(250,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(251,13): error C3646: 'szModule': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(251,21): error C2143: syntax error: missing ',' before '['
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(251,44): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(252,13): error C3646: 'szExePath': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(252,22): error C2143: syntax error: missing ',' before '['
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(252,32): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(257,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(257,1): error C2086: 'int BOOL': redefinition
+  (compiling source file '/main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(81,1):
+      see declaration of 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(258,1): error C2146: syntax error: missing ';' before identifier 'WINAPI'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(264,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(264,1): error C2086: 'int BOOL': redefinition
+  (compiling source file '/main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(81,1):
+      see declaration of 'BOOL'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(265,1): error C2146: syntax error: missing ';' before identifier 'WINAPI'
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(273,13): error C3646: 'dwSize': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(273,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(274,13): error C3646: 'th32ModuleID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(274,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(275,13): error C3646: 'th32ProcessID': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(275,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(276,13): error C3646: 'GlblcntUsage': unknown override specifier
+  (compiling source file '/main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h(276,13): error C1003: error count exceeds 100; stopping compilation
+  (compiling source file '/main.cpp')
+  
+  Generating Code...
